@@ -46,19 +46,19 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 
-# Project Structure
+## Project Structure
 
+```
 titanic-survival-prediction/
 │
 ├── data/                   # Data directory
-│   ├── train.csv           # Training data
-│             
+│   └── train.csv           # Training data
 │
 ├── models/                 # Saved model files
 │   └── titanic_model.pkl   # Trained model
 │
 ├── notebooks/              # Jupyter notebooks
-│   └── Titanic_Survival_Prediction.ipynb           # Exploratory Data Analysis
+│   └── Titanic_Survival_Prediction.ipynb   # Exploratory Data Analysis
 │
 ├── images/                 # Visualizations
 │   ├── missing_values.png
@@ -66,8 +66,8 @@ titanic-survival-prediction/
 │   ├── confusion_matrix.png
 │   └── feature_importances.png
 │
-|     
 └── README.md               # Project documentation
+```
 
 
 # Data Preprocessing
