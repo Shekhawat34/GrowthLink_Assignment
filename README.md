@@ -36,6 +36,7 @@ The Dataset Includes the following Fields:
 
 # Installation
 
+```
 #Clone the repository
 git clone https://github.com/Shekhawat34/GrowthLink_Assignment/titanic-survival-prediction.git
 cd titanic-survival-prediction
@@ -43,7 +44,7 @@ cd titanic-survival-prediction
 #Create and activate virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 
 
 ## Project Structure
@@ -109,7 +110,7 @@ The entire preprocessing and modeling pipeline was built using scikit-learn's Pi
 5. Confusion Matrix
 
 # Usage
-
+```
 import pickle
 
 #Load the model
@@ -122,7 +123,7 @@ with open('models/titanic_model.pkl', 'rb') as f:
 #Make predictions
 predictions = model.predict(new_data)
 
-
+```
 
 
 
