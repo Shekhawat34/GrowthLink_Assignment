@@ -36,16 +36,15 @@ The Dataset Includes the following Fields:
 
 # Installation
 
-# Clone the repository
+#Clone the repository
 git clone https://github.com/Shekhawat34/GrowthLink_Assignment/titanic-survival-prediction.git
 cd titanic-survival-prediction
 
-# Create and activate virtual environment (optional but recommended)
+#Create and activate virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# Install required packages
-pip install -r requirements.txt
+
 
 # Project Structure
 
@@ -120,7 +119,7 @@ with open('models/titanic_model.pkl', 'rb') as f:
 #Prepare data (ensure it's in the same format as training data)
 #...
 
-# Make predictions
+#Make predictions
 predictions = model.predict(new_data)
 
 
